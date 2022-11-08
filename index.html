@@ -5,11 +5,41 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-500">
-    <div class="m-6 p-6 max-w-md mx-auto bg-white rounded-xl shadow-lg flex-col items-center space-x-4">
+    <div class="m-6 p-6 max-w-lg mx-auto bg-white rounded-xl shadow-lg flex-col items-center space-x-4">
         <h1 class="text-3xl font-bold font-green-500 my-4 mx-auto ">Hello World</h1>
-        <p class="text-2md text-semibold text-red-400 ">I'm hosted with GitHub Pages.</p>
+        <p class="text-2md text-semibold text-red-400 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">I'm hosted with <span class="relative text-white">GitHub Pages.</span></p>
         <p class="my-6"><img src="img/IMG_6236.JPG" class="w-100 h-100 rounded-full"></p>
         <h1 class="mt-10 text-3sm font-bold underline">This block is test for tailwindcss-cdn.</h1>
     </div>
+    
+    <div>
+        <table>
+            <thead>
+                <tr class="text-bold text-sm text-it">
+                    <td>Subject</td>
+                    <td>Locations/time</td>
+                    <td>Descriptions</td>
+                </tr>
+            </thead>
+            <tbody class="odd:bg-white even:bg-slate-50">
+                <tr class="">
+                    <td>description 1</td>
+                    <td>location 1</td>
+                    <td>time 1</td>
+                </tr>
+                <tr class="">
+                    <td>description 2</td>
+                    <td>location 2</td>
+                    <td>time 2</td>
+                </tr>
+                <tr class="">
+                    <td>description 3</td>
+                    <td>location 3</td>
+                    <td>time 3</td>
+                </tr>                
+            </tbody>
+        </table>
+    </div>
+    
 </body>
 </html>
